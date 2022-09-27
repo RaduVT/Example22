@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Example22 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int sum, product, i;
         sum = 0;
         product = 1;
@@ -9,7 +9,7 @@ public class Example22 {
             sum = sum + i;
             product = product * i;
         }
-        System.out.println("Sum from 1 to 10: " +sum);
-        System.out.println("Product from 1 to 10:" +product);
+        System.out.println("Sum from 1 to 10: " + sum);
+        System.out.println("Product from 1 to 10:" + product);
     }
 }
